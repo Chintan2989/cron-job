@@ -14,7 +14,7 @@
     ],
     "functions": {
         "api/cron-job.js": {
-            "memory": 512,
+            "memory": 128,
             "maxDuration": 30
         }
     }
