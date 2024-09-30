@@ -10,6 +10,6 @@ jobs:
 
     steps:
       - name: call the vercel cron job
-        uses: curl -X POST http://localhost:3000/api/cron-job
+        uses: curl -X POST https://cron-job-sigma.vercel.app//api/cron-job
 
       
